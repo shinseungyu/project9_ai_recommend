@@ -66,7 +66,7 @@ export const metadata: Metadata = {
   },
   verification: {
     other: {
-      'naver-site-verification': '89526f8a6ecae4298dcb29200f67dbc70c6c1b48'
+      'naver-site-verification': 'f76e43211cd87d512ec3ef595aca8518c1998d92'
     }
   },
   icons: {
@@ -139,7 +139,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
           strategy="beforeInteractive"
         />
-        <meta name="naver-site-verification" content="89526f8a6ecae4298dcb29200f67dbc70c6c1b48" />
+        <meta name="naver-site-verification" content="f76e43211cd87d512ec3ef595aca8518c1998d92" />
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378247298190063"
