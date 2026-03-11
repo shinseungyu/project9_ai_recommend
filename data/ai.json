@@ -1,0 +1,238 @@
+{
+  "ai_tools": {
+    "image_generation": {
+      "services": [
+        {
+          "name": "Midjourney",
+          "specialty": "예술적·감성적 이미지",
+          "free": false,
+          "price_month": "$10+"
+        },
+        {
+          "name": "FLUX",
+          "specialty": "사실적 사진·제품 이미지",
+          "free": false,
+          "price_month": "$20+ (클라우드)"
+        },
+        {
+          "name": "DALL-E 3",
+          "specialty": "프롬프트 이해력·초보자",
+          "free": "제한적",
+          "price_month": "ChatGPT $20+"
+        },
+        {
+          "name": "Adobe Firefly",
+          "specialty": "상업용 저작권 안전",
+          "free": "제한적",
+          "price_month": "CC $22.99+"
+        },
+        {
+          "name": "Stable Diffusion",
+          "specialty": "무료·무제한·커스터마이징",
+          "free": true,
+          "price_month": "무료 (로컬)"
+        },
+        {
+          "name": "Ideogram",
+          "specialty": "이미지 내 텍스트·포스터",
+          "free": "제한적",
+          "price_month": "$8+"
+        },
+        {
+          "name": "Leonardo AI",
+          "specialty": "게임·캐릭터 일관성",
+          "free": "150토큰/일",
+          "price_month": "$12+"
+        },
+        {
+          "name": "GPT Image (4o)",
+          "specialty": "대화형 편집",
+          "free": "제한적",
+          "price_month": "ChatGPT $20+"
+        },
+        {
+          "name": "Canva AI",
+          "specialty": "SNS 디자인 올인원",
+          "free": false,
+          "price_month": "$15+"
+        },
+        {
+          "name": "Nano Banana",
+          "specialty": "실시간 자연어 편집",
+          "free": false,
+          "price_month": "$19.99+"
+        }
+      ],
+      "best_for": {
+        "artistic_images": "Midjourney",
+        "realistic_photos": "FLUX",
+        "text_in_images": "Ideogram",
+        "beginner": "DALL-E 3",
+        "commercial_safe": "Adobe Firefly",
+        "game_characters": "Leonardo AI",
+        "sns_design": "Canva AI",
+        "free_unlimited": "Stable Diffusion",
+        "sns_marketing": ["Midjourney", "Ideogram"]
+      }
+    },
+
+    "video_generation": {
+      "services": [
+        {
+          "name": "Kling AI",
+          "specialty": "롱폼·캐릭터 일관성",
+          "max_length": "2분",
+          "audio": false,
+          "free": "66크레딧/일",
+          "price_month": "$6.99+",
+          "difficulty": "★★★"
+        },
+        {
+          "name": "Hailuo AI",
+          "specialty": "사실적 움직임·저예산",
+          "max_length": "10초",
+          "audio": false,
+          "free": false,
+          "price_month": "$14.99",
+          "difficulty": "★★"
+        },
+        {
+          "name": "Runway Gen-4",
+          "specialty": "전문 편집·4K",
+          "max_length": "무제한",
+          "audio": true,
+          "free": "125크레딧",
+          "price_month": "$15+",
+          "difficulty": "★★★★"
+        },
+        {
+          "name": "Pika Labs",
+          "specialty": "SNS 바이럴 효과",
+          "max_length": "10초",
+          "audio": false,
+          "free": false,
+          "price_month": "$8+",
+          "difficulty": "★"
+        },
+        {
+          "name": "Sora",
+          "specialty": "자연어 이해·물리",
+          "max_length": "20초",
+          "audio": false,
+          "free": "ChatGPT 포함",
+          "price_month": "$20+",
+          "difficulty": "★★"
+        },
+        {
+          "name": "Veo 3",
+          "specialty": "오디오 포함 영상",
+          "max_length": "60초",
+          "audio": true,
+          "free": false,
+          "price_month": "$19.99",
+          "difficulty": "★★★"
+        },
+        {
+          "name": "HeyGen",
+          "specialty": "AI 아바타·립싱크",
+          "max_length": "제한 없음",
+          "audio": true,
+          "free": "트라이얼",
+          "price_month": "$29+",
+          "difficulty": "★★"
+        },
+        {
+          "name": "Luma Dream Machine",
+          "specialty": "빠른 생성·자연어 편집",
+          "max_length": "제한 없음",
+          "audio": false,
+          "free": false,
+          "price_month": "$9.99+",
+          "difficulty": "★★"
+        },
+        {
+          "name": "SkyReels",
+          "specialty": "60초+ 긴 영상",
+          "max_length": "무제한",
+          "audio": false,
+          "free": "제한",
+          "price_month": "$28+",
+          "difficulty": "★★★"
+        }
+      ],
+
+      "best_for": {
+        "sns_low_budget": "Hailuo AI",
+        "sns_viral": "Pika Labs",
+        "long_form_character": "Kling AI",
+        "professional_video": "Runway Gen-4",
+        "audio_video": "Veo 3",
+        "marketing_avatar": "HeyGen",
+        "fast_prototype": "Luma Dream Machine",
+        "long_video": "SkyReels"
+      }
+    },
+
+    "coding_tools": {
+      "categories": {
+        "ai_ide": ["Cursor", "Windsurf", "GitHub Copilot"],
+        "ai_agents_terminal": ["Claude Code", "OpenAI Codex"],
+        "vibe_coding": ["Bolt.new", "Lovable", "v0", "Replit"],
+        "ai_chat_assistant": ["Claude", "ChatGPT", "Gemini"]
+      },
+
+      "best_for": {
+        "general_dev": "Cursor",
+        "budget_dev": "GitHub Copilot",
+        "large_codebase": "Claude Code",
+        "mvp_builder": "Lovable",
+        "frontend_ui": "v0",
+        "browser_dev": "Bolt.new",
+        "learning_small_apps": "Replit",
+        "enterprise": ["GitHub Copilot", "Tabnine"],
+        "mobile_android": "Gemini + Android Studio",
+        "architecture_analysis": "Claude",
+        "low_cost_ai_product": "Gemini",
+        "privacy_local": "Tabnine / Aider"
+      }
+    },
+
+    "ai_agents": {
+      "services": [
+        {
+          "name": "ChatGPT Agent",
+          "use_case": "범용 자율 작업",
+          "price": "$20+"
+        },
+        {
+          "name": "Manus AI",
+          "use_case": "최고 자율성 에이전트"
+        },
+        {
+          "name": "Devin",
+          "use_case": "자율 코딩 에이전트"
+        },
+        {
+          "name": "LangChain",
+          "use_case": "커스텀 에이전트 개발"
+        },
+        {
+          "name": "CrewAI",
+          "use_case": "멀티에이전트 협업"
+        },
+        {
+          "name": "AutoGen",
+          "use_case": "Microsoft/Azure 환경"
+        },
+        {
+          "name": "Lindy AI",
+          "use_case": "이메일·일정 자동화"
+        },
+        {
+          "name": "n8n",
+          "use_case": "워크플로 자동화"
+        }
+      ]
+    }
+  }
+}
