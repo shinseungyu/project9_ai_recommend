@@ -14,9 +14,9 @@ export default function Header() {
 
   const navLinks = [
     { href: '/', label: '추천 테스트' },
-    { href: '/image-ai', label: 'AI 그림 생성' },
-    { href: '/video-ai', label: 'AI 영상 제작' },
+    { href: '/creative-ai', label: 'AI 크리에이티브' },
     { href: '/ai-agents', label: '업무 자동화 AI' },
+    { href: '/ai-ranking', label: 'AI 순위' },
     { href: '/board', label: 'AI 활용 가이드' },
   ];
 

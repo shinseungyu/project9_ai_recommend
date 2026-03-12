@@ -36,13 +36,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.5,
     },
     {
-      url: `${baseUrl}/image-ai`,
+      url: `${baseUrl}/creative-ai`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/video-ai`,
+      url: `${baseUrl}/ai-ranking`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,

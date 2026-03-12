@@ -1,3 +1,4 @@
+import { redirect } from 'next/navigation';
 import React from 'react';
 import { Metadata } from 'next';
 import Script from 'next/script';
@@ -15,6 +16,7 @@ export const metadata: Metadata = {
 };
 
 export default function VideoAIPage() {
+  redirect('/creative-ai');
   const videoServices = aiData.ai_tools.video_generation.services;
 
   const jsonLd = {

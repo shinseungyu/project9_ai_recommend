@@ -1,3 +1,4 @@
+import { redirect } from 'next/navigation';
 import React from 'react';
 import { Metadata } from 'next';
 import Script from 'next/script';
@@ -15,6 +16,7 @@ export const metadata: Metadata = {
 };
 
 export default function ImageAIPage() {
+  redirect('/creative-ai');
   const imageServices = aiData.ai_tools.image_generation.services;
 
   const jsonLd = {

@@ -14,6 +14,9 @@ export default function AdBanner({
   dataFullWidthResponsive = true,
 }: AdBannerProps) {
   useEffect(() => {
+    // display: none 상태면 광고 초기화 생략 (No slot size 에러 방지)
+    const el = document.querySelector('.adsbygoogle');
+    if (!el || (el as HTMLElement).offsetParent === null) return;
     try {
       // @ts-ignore
       (window.adsbygoogle = window.adsbygoogle || []).push({});
