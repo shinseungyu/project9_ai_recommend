@@ -88,14 +88,6 @@ const ResultView = ({ scores, onRestart }: ResultViewProps) => {
         </a>
       </motion.div>
 
-      {/* Adsense placeholder */}
-      <div
-        id="adsense-banner"
-        className="w-full h-32 bg-secondary rounded-xl flex items-center justify-center my-6 border border-border"
-      >
-        <span className="text-muted-foreground text-sm">광고 배너 영역</span>
-      </div>
-
       {/* Score breakdown */}
       <motion.div
         initial={{ opacity: 0 }}

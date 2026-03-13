@@ -93,132 +93,66 @@ export const questions: Question[] = [
     id: 1,
     question: "AI를 가장 많이 쓰는 상황은?",
     options: [
-      {
-        text: "코드 작성이나 개발 업무",
-        scores: { cursor: 3, chatgpt: 1, claude: 1 },
-      },
-      {
-        text: "글쓰기, 보고서, 콘텐츠 제작",
-        scores: { claude: 3, chatgpt: 2, notionAI: 2 },
-      },
-      {
-        text: "정보 검색과 리서치",
-        scores: { perplexity: 3, chatgpt: 1 },
-      },
-      {
-        text: "이미지, 디자인 제작",
-        scores: { midjourney: 3, chatgpt: 1 },
-      },
+      { text: "코드 작성이나 개발 업무", scores: { cursor: 3, chatgpt: 1, claude: 1 } },
+      { text: "글쓰기, 보고서, 콘텐츠 제작", scores: { claude: 3, chatgpt: 2, notionAI: 2 } },
+      { text: "정보 검색과 리서치", scores: { perplexity: 3, chatgpt: 1 } },
+      { text: "이미지, 디자인 제작", scores: { midjourney: 3, chatgpt: 1 } },
+      { text: "기타 / 잘 모르겠어요", scores: { chatgpt: 2, claude: 1, perplexity: 1 } },
     ],
   },
   {
     id: 2,
     question: "지금 가장 시간이 많이 걸리는 작업은?",
     options: [
-      {
-        text: "버그 찾기와 코드 디버깅",
-        scores: { cursor: 3, chatgpt: 1 },
-      },
-      {
-        text: "긴 문서 읽고 요약하기",
-        scores: { claude: 3, notionAI: 2, chatgpt: 1 },
-      },
-      {
-        text: "최신 트렌드 파악하기",
-        scores: { perplexity: 3, chatgpt: 1 },
-      },
-      {
-        text: "시각 자료 및 썸네일 만들기",
-        scores: { midjourney: 3 },
-      },
+      { text: "버그 찾기와 코드 디버깅", scores: { cursor: 3, chatgpt: 1 } },
+      { text: "긴 문서 읽고 요약하기", scores: { claude: 3, notionAI: 2, chatgpt: 1 } },
+      { text: "최신 트렌드 파악하기", scores: { perplexity: 3, chatgpt: 1 } },
+      { text: "시각 자료 및 썸네일 만들기", scores: { midjourney: 3 } },
+      { text: "기타 / 딱히 없어요", scores: { chatgpt: 2, claude: 1 } },
     ],
   },
   {
     id: 3,
     question: "직업 또는 주요 역할은?",
     options: [
-      {
-        text: "개발자 / 엔지니어",
-        scores: { cursor: 3, chatgpt: 1, claude: 1 },
-      },
-      {
-        text: "기획자 / 마케터",
-        scores: { notionAI: 2, claude: 2, chatgpt: 2, perplexity: 1 },
-      },
-      {
-        text: "디자이너 / 크리에이터",
-        scores: { midjourney: 3, chatgpt: 1 },
-      },
-      {
-        text: "연구자 / 학생",
-        scores: { perplexity: 3, claude: 2, chatgpt: 1 },
-      },
+      { text: "개발자 / 엔지니어", scores: { cursor: 3, chatgpt: 1, claude: 1 } },
+      { text: "기획자 / 마케터", scores: { notionAI: 2, claude: 2, chatgpt: 2, perplexity: 1 } },
+      { text: "디자이너 / 크리에이터", scores: { midjourney: 3, chatgpt: 1 } },
+      { text: "연구자 / 학생", scores: { perplexity: 3, claude: 2, chatgpt: 1 } },
+      { text: "기타 / 해당 없음", scores: { chatgpt: 2, claude: 1, perplexity: 1 } },
     ],
   },
   {
     id: 4,
     question: "AI에게 원하는 것은?",
     options: [
-      {
-        text: "내 코드를 직접 수정해줬으면",
-        scores: { cursor: 3 },
-      },
-      {
-        text: "신중하고 깊이 있는 답변",
-        scores: { claude: 3, chatgpt: 1 },
-      },
-      {
-        text: "빠른 시간 안에 답을 찾아줬으면",
-        scores: { perplexity: 3, chatgpt: 2 },
-      },
-      {
-        text: "내가 상상한 이미지를 만들어줬으면",
-        scores: { midjourney: 3 },
-      },
+      { text: "내 코드를 직접 수정해줬으면", scores: { cursor: 3 } },
+      { text: "신중하고 깊이 있는 답변", scores: { claude: 3, chatgpt: 1 } },
+      { text: "빠른 시간 안에 답을 찾아줬으면", scores: { perplexity: 3, chatgpt: 2 } },
+      { text: "내가 상상한 이미지를 만들어줬으면", scores: { midjourney: 3 } },
+      { text: "기타 / 뭐든 다 잘했으면", scores: { chatgpt: 2, claude: 1 } },
     ],
   },
   {
     id: 5,
     question: "협업이나 팀 작업이 많은 편인가요?",
     options: [
-      {
-        text: "팀과 함께 문서/노트를 자주 공유",
-        scores: { notionAI: 3, claude: 1 },
-      },
-      {
-        text: "혼자 개발이나 작업을 주로 함",
-        scores: { cursor: 2, chatgpt: 2 },
-      },
-      {
-        text: "클라이언트에게 결과물을 납품",
-        scores: { midjourney: 2, chatgpt: 2, claude: 1 },
-      },
-      {
-        text: "개인 학습이나 사이드 프로젝트",
-        scores: { chatgpt: 2, perplexity: 2, claude: 1 },
-      },
+      { text: "팀과 함께 문서/노트를 자주 공유", scores: { notionAI: 3, claude: 1 } },
+      { text: "혼자 개발이나 작업을 주로 함", scores: { cursor: 2, chatgpt: 2 } },
+      { text: "클라이언트에게 결과물을 납품", scores: { midjourney: 2, chatgpt: 2, claude: 1 } },
+      { text: "개인 학습이나 사이드 프로젝트", scores: { chatgpt: 2, perplexity: 2, claude: 1 } },
+      { text: "기타 / 상황에 따라 달라요", scores: { chatgpt: 2, notionAI: 1 } },
     ],
   },
   {
     id: 6,
     question: "AI를 쓸 때 가장 중요하게 생각하는 것은?",
     options: [
-      {
-        text: "정확성과 신뢰도",
-        scores: { claude: 3, perplexity: 2 },
-      },
-      {
-        text: "속도와 편의성",
-        scores: { chatgpt: 3, cursor: 2 },
-      },
-      {
-        text: "창의성과 독창성",
-        scores: { midjourney: 3, claude: 1 },
-      },
-      {
-        text: "팀 협업 및 통합 기능",
-        scores: { notionAI: 3, chatgpt: 1 },
-      },
+      { text: "정확성과 신뢰도", scores: { claude: 3, perplexity: 2 } },
+      { text: "속도와 편의성", scores: { chatgpt: 3, cursor: 2 } },
+      { text: "창의성과 독창성", scores: { midjourney: 3, claude: 1 } },
+      { text: "팀 협업 및 통합 기능", scores: { notionAI: 3, chatgpt: 1 } },
+      { text: "기타 / 아직 잘 모르겠어요", scores: { chatgpt: 2, claude: 1, perplexity: 1 } },
     ],
   },
 ];

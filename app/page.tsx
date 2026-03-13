@@ -232,6 +232,52 @@ export default function Page() {
           </div>
         </article>
 
+        {/* 서브페이지 링크 섹션 */}
+        <section style={{ marginTop: "40px", paddingTop: "40px", borderTop: "1px solid hsl(220 15% 90%)" }}>
+          <h2 style={{ fontSize: "20px", fontWeight: "800", marginBottom: "8px", color: "hsl(220 25% 10%)" }}>
+            AI 도구 추천 심화 가이드
+          </h2>
+          <p style={{ fontSize: "14px", color: "hsl(220 10% 50%)", marginBottom: "20px" }}>
+            목적·예산·직업별로 더 깊이 있는 <strong>AI 추천</strong> 가이드를 확인하세요.
+          </p>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))", gap: "14px" }}>
+            {[
+              { href: "/ai-tools-guide", icon: "📚", title: "AI 도구 추천 완벽 가이드", desc: "직업·목적·예산별 50+ AI 선택 가이드", color: "#6366f1" },
+              { href: "/free-ai-tools", icon: "🆓", title: "무료 AI 추천 TOP 10", desc: "비용 없이 바로 쓸 수 있는 최고의 무료 AI", color: "#10b981" },
+              { href: "/ai-ranking", icon: "🏆", title: "AI 순위 TOP 10", desc: "2026 카테고리별 최강 AI 랭킹", color: "#f59e0b" },
+              { href: "/ai-agents", icon: "🤖", title: "업무 자동화 AI", desc: "반복 업무를 대신해주는 AI 에이전트", color: "#0ea5e9" },
+            ].map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                style={{
+                  display: "flex",
+                  alignItems: "flex-start",
+                  gap: "14px",
+                  textDecoration: "none",
+                  background: "hsl(0 0% 100%)",
+                  padding: "18px",
+                  borderRadius: "12px",
+                  border: "1px solid hsl(220 15% 90%)",
+                  borderTop: `3px solid ${item.color}`,
+                  boxShadow: "0 1px 4px hsl(250 85% 60% / 0.04)",
+                  transition: "box-shadow 0.2s",
+                }}
+              >
+                <span style={{ fontSize: "24px", flexShrink: 0 }}>{item.icon}</span>
+                <div>
+                  <h3 style={{ margin: "0 0 4px", fontSize: "14px", fontWeight: "800", color: "hsl(220 25% 10%)" }}>
+                    {item.title}
+                  </h3>
+                  <p style={{ margin: 0, fontSize: "12px", color: "hsl(220 10% 50%)", lineHeight: "1.5" }}>
+                    {item.desc}
+                  </p>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
+
         {/* 게시판 미리보기 섹션 */}
         <section style={{ marginTop: "40px" }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px" }}>

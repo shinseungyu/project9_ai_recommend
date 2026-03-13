@@ -14,10 +14,11 @@ export default function Header() {
 
   const navLinks = [
     { href: '/', label: '추천 테스트' },
-    { href: '/creative-ai', label: 'AI 크리에이티브' },
-    { href: '/ai-agents', label: '업무 자동화 AI' },
+    { href: '/ai-tools-guide', label: 'AI 도구 추천' },
+    { href: '/free-ai-tools', label: '무료 AI' },
     { href: '/ai-ranking', label: 'AI 순위' },
-    { href: '/board', label: 'AI 활용 가이드' },
+    { href: '/creative-ai', label: '크리에이티브 AI' },
+    { href: '/board', label: 'AI 팁' },
   ];
 
   return (
