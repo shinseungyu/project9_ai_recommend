@@ -68,10 +68,10 @@ export default function Page() {
         {/* 가이드 아티클 */}
         <article style={{ marginTop: "60px", paddingTop: "40px", borderTop: "1px solid hsl(220 15% 90%)" }}>
           <h2 style={{ fontSize: "22px", fontWeight: "800", marginBottom: "16px", color: "hsl(220 25% 10%)" }}>
-            AI 도구 추천 테스트: ChatGPT, Claude, Cursor 중 나에게 맞는 AI는?
+            AI 추천 — ChatGPT, Claude, Cursor 중 나에게 맞는 AI는?
           </h2>
           <p style={{ fontSize: "15px", lineHeight: "1.8", color: "hsl(220 10% 40%)", marginBottom: "20px" }}>
-            <strong>AI 도구 추천 테스트</strong>를 통해 수십 가지 AI 중에서 내 업무에 딱 맞는 도구를 빠르게 찾아보세요. <strong>ChatGPT, Claude, Cursor, Perplexity, Midjourney, Notion AI</strong> 등 대표적인 AI 서비스는 각각 강점이 다르기 때문에, 직업·업무 방식·사용 목적에 따라 최적의 AI가 달라집니다. 직장인부터 개발자, 크리에이터까지 — 이 무료 테스트로 나만의 AI 조합을 찾아보세요.
+            <strong>AI 추천</strong> 테스트를 통해 수십 가지 AI 중에서 내 업무에 딱 맞는 도구를 빠르게 찾아보세요. <strong>ChatGPT, Claude, Cursor, Perplexity, Midjourney, Notion AI</strong> 등 대표적인 AI 서비스는 각각 강점이 다르기 때문에, 직업·업무 방식·사용 목적에 따라 최적의 <strong>AI 추천</strong> 결과가 달라집니다. 직장인부터 개발자, 크리에이터까지 — 이 무료 <strong>AI 추천 테스트</strong>로 나만의 AI 조합을 찾아보세요.
           </p>
 
           <section style={{ marginBottom: "36px" }}>
@@ -163,19 +163,19 @@ export default function Page() {
 
           <section style={{ marginBottom: "28px" }}>
             <h3 style={{ fontSize: "18px", fontWeight: "700", marginBottom: "12px", color: "hsl(220 25% 10%)" }}>
-              2. 직업별 추천 AI 조합
+              2. 직업별 AI 추천 조합
             </h3>
             <ul style={{ paddingLeft: "20px", lineHeight: "2", color: "hsl(220 10% 40%)", fontSize: "14px" }}>
-              <li><strong>개발자:</strong> Cursor (코드 편집) + ChatGPT (범용 보조) 조합이 가장 강력</li>
-              <li><strong>마케터/기획자:</strong> Claude (글쓰기) + Notion AI (문서 관리) + Perplexity (트렌드 리서치)</li>
-              <li><strong>디자이너/크리에이터:</strong> Midjourney (이미지) + ChatGPT (카피라이팅)</li>
-              <li><strong>연구자/학생:</strong> Perplexity (최신 정보 검색) + Claude (문서 분석 및 요약)</li>
+              <li><strong>개발자 AI 추천:</strong> Cursor (코드 편집) + ChatGPT (범용 보조) 조합이 가장 강력</li>
+              <li><strong>마케터/기획자 AI 추천:</strong> Claude (글쓰기) + Notion AI (문서 관리) + Perplexity (트렌드 리서치)</li>
+              <li><strong>디자이너/크리에이터 AI 추천:</strong> Midjourney (이미지) + ChatGPT (카피라이팅)</li>
+              <li><strong>연구자/학생 AI 추천:</strong> Perplexity (최신 정보 검색) + Claude (문서 분석 및 요약)</li>
             </ul>
           </section>
 
           <section style={{ marginBottom: "28px" }}>
             <h3 style={{ fontSize: "18px", fontWeight: "700", marginBottom: "12px", color: "hsl(220 25% 10%)" }}>
-              3. 유료 vs 무료, 어떤 AI를 먼저 써봐야 할까?
+              3. 무료 AI 추천 — 처음엔 어떤 AI부터 써야 할까?
             </h3>
             <p style={{ fontSize: "14px", lineHeight: "1.8", color: "hsl(220 10% 40%)" }}>
               대부분의 AI 도구는 <strong>무료 플랜</strong>을 제공합니다. ChatGPT Free(GPT-4o mini), Claude Free, Perplexity Free 등으로 먼저 체험해보고, 실제로 자주 활용하게 되면 유료 플랜을 고려하세요. 특히 Cursor는 무료 플랜에서도 월 2,000건의 자동완성을 제공하므로 개발자라면 지금 바로 시작해볼 수 있습니다.

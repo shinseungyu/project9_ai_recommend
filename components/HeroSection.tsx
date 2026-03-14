@@ -27,14 +27,15 @@ const HeroSection = ({ onStart }: HeroSectionProps) => {
         transition={{ delay: 0.2 }}
         className="text-3xl sm:text-5xl font-extrabold text-foreground mb-4 leading-tight"
       >
-        내 업무에 딱 맞는
-        <br />
+        나에게 맞는{" "}
         <span
           className="bg-clip-text text-transparent"
           style={{ backgroundImage: "var(--hero-gradient)" }}
         >
-          AI 툴 찾기
+          AI 추천
         </span>
+        <br />
+        무료 테스트
       </motion.h1>
 
       <motion.p
@@ -43,9 +44,9 @@ const HeroSection = ({ onStart }: HeroSectionProps) => {
         transition={{ delay: 0.3 }}
         className="text-muted-foreground text-base sm:text-lg mb-10 leading-relaxed"
       >
-        8개의 간단한 질문에 답하면,
+        6가지 질문에 답하면,
         <br className="sm:hidden" />
-        {" "}당신의 업무 스타일에 최적화된 AI를 추천해드려요.
+        {" "}ChatGPT·Claude·Cursor 중 내 업무에 딱 맞는 <strong style={{color: 'inherit'}}>AI를 추천</strong>해드려요.
       </motion.p>
 
       <motion.button

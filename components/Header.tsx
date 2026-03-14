@@ -26,7 +26,7 @@ export default function Header() {
       <div className="max-w-[1200px] mx-auto flex items-center justify-between h-16">
         {/* Logo */}
         <Link href="/" className="font-bold text-indigo-500 text-lg flex items-center gap-2">
-          🤖 AI 도구 추천
+          🤖 AI 추천
         </Link>
 
         {/* Desktop Menu */}

@@ -24,21 +24,22 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: '2026 AI 도구 추천: 내 업무 3초 판독기 | ChatGPT·Claude·Cursor 무료 추천',
-  description: 'ChatGPT, Claude, Cursor 중 내 업무에 딱 맞는 AI를 3초 만에 무료로 추천받으세요. 직장인·개발자·크리에이터 맞춤 AI 도구 판독기.',
+  title: 'AI 추천 | 나에게 맞는 AI 도구 무료 추천 테스트 2026 — ChatGPT·Claude·Cursor',
+  description: 'AI 추천 테스트로 ChatGPT, Claude, Cursor, Midjourney 중 내 업무에 딱 맞는 AI를 무료로 찾아보세요. 직장인·개발자·크리에이터 맞춤 AI 추천.',
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://aicoretool.com'),
   alternates: {
     canonical: '/',
   },
   keywords: [
-    'AI 도구 추천', 'AI 추천 테스트', 'ChatGPT 추천', 'Claude 추천', 'Cursor 추천',
-    '직장인 AI 추천', '업무용 AI', '나에게 맞는 AI', '무료 AI 추천', '2026 AI 도구'
+    'AI 추천', 'AI 도구 추천', '나에게 맞는 AI 추천', '무료 AI 추천', 'AI 추천 테스트',
+    '직장인 AI 추천', '업무용 AI 추천', 'ChatGPT 추천', 'Claude 추천', 'Cursor 추천',
+    '2026 AI 도구 추천', 'AI 추천 사이트', '최고의 AI 추천'
   ],
   openGraph: {
-    title: '2026 AI 도구 추천: 내 업무 3초 판독기 | ChatGPT·Claude·Cursor 무료 추천',
-    description: 'ChatGPT, Claude, Cursor 중 내 업무에 딱 맞는 AI를 3초 만에 무료로 추천받으세요. 직장인·개발자·크리에이터 맞춤 AI 도구 판독기.',
+    title: 'AI 추천 | 나에게 맞는 AI 도구 무료 추천 테스트 2026 — ChatGPT·Claude·Cursor',
+    description: 'AI 추천 테스트로 ChatGPT, Claude, Cursor, Midjourney 중 내 업무에 딱 맞는 AI를 무료로 찾아보세요. 직장인·개발자·크리에이터 맞춤 AI 추천.',
     url: '/',
-    siteName: 'AI 도구 추천: 내 업무 3초 판독기',
+    siteName: 'AI 추천 | aicoretool.com',
     locale: 'ko_KR',
     type: 'website',
     images: [
@@ -52,8 +53,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: '2026 AI 도구 추천: 내 업무 3초 판독기 | ChatGPT·Claude·Cursor 무료 추천',
-    description: 'ChatGPT, Claude, Cursor 중 내 업무에 딱 맞는 AI를 3초 만에 무료로 추천받으세요.',
+    title: 'AI 추천 | 나에게 맞는 AI 도구 무료 추천 테스트 2026',
+    description: 'AI 추천 테스트로 ChatGPT, Claude, Cursor 중 내 업무에 딱 맞는 AI를 무료로 찾아보세요.',
     images: ['https://aicoretool.com/thumb.webp'],
   },
   authors: [{ name: 'aicoretool.com' }],
