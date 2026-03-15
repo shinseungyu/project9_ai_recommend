@@ -143,6 +143,19 @@ export default function RootLayout({
         <meta name="naver-site-verification" content="f76e43211cd87d512ec3ef595aca8518c1998d92" />
         <Script
           async
+          src="https://www.googletagmanager.com/gtag/js?id=G-962VMJ681S"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-962VMJ681S');
+          `}
+        </Script>
+        <Script
+          async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378247298190063"
           crossOrigin="anonymous"
           strategy="afterInteractive"
